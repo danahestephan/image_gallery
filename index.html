@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Image Gallery
+  </title>
+
+  <!--Style CSS-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Welcome to Radical<span class="green__x">X</span> </h1>
+  <h2>Live Bootcamps and Virtual Internships!</h2>
+
+  <div class="my__products">
+    <div class="my__products__gallery">
+      <img src="https://uploads-ssl.webflow.com/61a8d1d6f4ba145b578385f7/6396f3123a8b110baf5b8d9f_Front%20End.png"
+        alt="click here" onclick="myImageFunction(this)">
+      <img src="https://uploads-ssl.webflow.com/61a8d1d6f4ba145b578385f7/6396f340fd907e54ea8116b9_Backend.png"
+        alt="click here" onclick="myImageFunction(this)">
+      <img src="https://uploads-ssl.webflow.com/61a8d1d6f4ba145b578385f7/638fd6c077cc6621a7f04387_Mobile.png"
+        alt="click here" onclick="myImageFunction(this)">
+      <img src="https://uploads-ssl.webflow.com/61a8d1d6f4ba145b578385f7/638fd62d0c20efb4e6524105_ML.png"
+        alt="click here" onclick="myImageFunction(this)">
+    </div>
+
+    <div class="image__container">
+      <img id="img__box"
+        src="https://uploads-ssl.webflow.com/61a8d1d6f4ba145b578385f7/638fd6a3066ca212f1467873_DATA.png"
+        alt="click here">
+    </div>
+  </div>
+
+  <script>
+    function myImageFunction(productSmallImg) {
+      var productFullImg = document.getElementById("img__box");
+      productFullImg.src = productSmallImg.src;
+    }
+  </script>
+</body>
+
+</html>
