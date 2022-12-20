@@ -1,0 +1,79 @@
+/* import google font style 'Krona One' */
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Krona+One&family=Space+Grotesk&display=swap');
+
+
+/* use CSS reset for margin,padding, & set global fonts style*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Krona One', sans-serif;
+}
+
+/*  Style the h1 tag */
+h1 {
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 22px;
+}
+
+/* Style the span in the h1 tag */
+.green__x {
+  color: #97f450;
+}
+
+/* Stlye the h2 tag*/
+h2 {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* Style only the images inside my product gallery */
+.my__products__gallery img {
+  height: 90px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+/* Style the images inside my product gallery only on hover*/
+.my__products__gallery img:hover {
+  opacity: 1;
+}
+
+/* Style my product gallery */
+.my__products__gallery {
+  padding: .8em;
+}
+
+/* Style my products */
+.my__products {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* Style the image inside image container */
+.image__container img {
+  height: 400px;
+  border-radius: 5px;
+  transition: transform 1s;
+}
+
+/* Style the images inside my image container only on hover*/
+.image__container img:hover {
+  transform: scale(1.3);
+  box-shadow: 1px 1px 44px -1px rgba(0, 0, 0, 0.77);
+}
+
+/* Style image container */
+.image__container {
+  padding: .3em;
+}
