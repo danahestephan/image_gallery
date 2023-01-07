@@ -1,33 +1,34 @@
-/* import google font style 'Krona One' */
+@font-face { font-family:"krona One";
+    src: url("https://fonts.google.com/specimen/Krona+One?query=kro");
 
-/* use CSS reset for margin,padding, & set global fonts style*/
+}
 
+body{margin: 10px; padding: 5px ;}
 
-/*  Style the h1 tag */
+h1 {text-align: center; font-family: 'Krona One', sans-serif; size: 10em; }
 
+span{color:lightgreen ;font-family: 'Krona One', sans-serif; size: 10em; }
 
-/* Style the span in the h1 tag */
-
-
-/* Stlye the h2 tag*/
+h2{text-align: center; font-family: 'Krona One', sans-serif; size: 10em; }
 
 
 /* Style only the images inside my product gallery */
+.my__products__gallery{ height: auto; object-fit: cover; width: 30%; max-width: 30%;}
 
 
 /* Style the images inside my product gallery only on hover*/
-
-
+.my__products__gallery { position: absolute; object-fit: cover; max-width: 10%; width: 10%;}
 /* Style my product gallery */
 
 
 /* Style my products */
-
+.my__products{text-align: center; margin: 5px; padding: 10px}
 
 /* Style the image inside image container */
-
+.image__container{text-align: center;margin: 5px; padding: 10px }
 
 /* Style the images inside my image container only on hover*/
-
+#img__box{display:inline ; float: right; width: 900px; object-fit: cover;}
 
 /* Style image container */
+.image__container{display:inline; margin: 5px; padding: 100px }
