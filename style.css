@@ -5,30 +5,30 @@
 
 body{margin: 10px; padding: 5px ;}
 
-h1 {text-align: center; font-family: 'Krona One', sans-serif; font-size: 10em; }
+h1 {text-align: center; font-family: 'Krona One', sans-serif; font-size: 5em; }
 
 span{color:lightgreen ;font-family: 'Krona One', sans-serif; font-size: 1em; }
 
-h2{text-align: center; font-family: 'Krona One', sans-serif; font-size: 10em; }
+h2{text-align: center; font-family: 'Krona One', sans-serif; font-size: 5em; }
 
 
 /* Style only the images inside my product gallery */
-.my__products__gallery{ height: auto; object-fit: cover; width: 30%; max-width: 30%;}
+.my__products__gallery{ height: auto; object-fit: cover; width: 30%; max-width: 30%; padding: 50px;}
 
 
 /* Style the images inside my product gallery only on hover*/
-.my__products__gallery { position: absolute; object-fit: cover; max-width: 10%; width: 10%;}
+.my__products__gallery { position: absolute; display: flex; flex-direction: column; justify-content: center; max-width: 10%; width: 10%;}
 /* Style my product gallery */
 
 
 /* Style my products */
-.my__products{text-align: center; margin: 5px; padding: 10px display:flex}
+.my__products{ display:flex; align-self: center; padding: 10px; transform: translate(5px,5px);}
 
 /* Style the image inside image container */
-.image__container{text-align: center;margin: 5px; padding: 10px }
+.image__container{display:flex; align-self: center; margin: 1px; padding: 5px; transition: 1s; }
 
 /* Style the images inside my image container only on hover*/
-#img__box{display:inline ; float: right; width: 900px; object-fit: cover;}
+#img__box{display:flex ; float: right; width: 900px; object-fit: cover; align-self: flex-end; }
 
 /* Style image container */
-.image__container{margin: 5px; padding: 100px }
+.image__container{margin: 20px; }
