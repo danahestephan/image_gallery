@@ -22,7 +22,7 @@ h2{text-align: center; font-family: 'Krona One', sans-serif; font-size: 5em; }
 
 
 /* Style my products */
-.my__products{ display:flex; align-self: center; padding: 10px; transform: translate(5px,5px);}
+.my__products{ display:flex; align-self: center; padding: 10px; transform: translate(5px,5px); }
 
 /* Style the image inside image container */
 .image__container{display:flex; align-self: center; margin: 1px; padding: 5px; transition: 1s; }
@@ -31,4 +31,4 @@ h2{text-align: center; font-family: 'Krona One', sans-serif; font-size: 5em; }
 #img__box{display:flex ; float: right; width: 900px; object-fit: cover; align-self: flex-end; }
 
 /* Style image container */
-.image__container{margin: 20px; }
+.image__container{margin-left: 2em; padding-left: 20em; }
