@@ -18,7 +18,6 @@ h2{text-align: center; font-family: 'Krona One', sans-serif; font-size: 5em; }
 
 /* Style the images inside my product gallery only on hover*/
 .my__products__gallery { position: absolute; display: flex; flex-direction: column; justify-content: center; max-width: 10%; width: 10%;}
-/* Style my product gallery */
 
 
 /* Style my products */
